@@ -1,16 +1,22 @@
+
+  
 /* Custom Stylesheet */
 /**
  * Use this file to override Materialize files so you can update
  * the core Materialize files in the future
  *
 */
+body { font-family: 'Oswald', sans-serif; }
+
 nav ul a,
 nav .brand-logo {
   color: black;
   font-family: 'Kaushan Script', cursive;
- padding: 0 50px;}
+ ;}
 
-body { font-family: 'Oswald', sans-serif; }
+.nav-wrapper  {
+  padding: 0 50px;
+ }
 
 p {
   line-height: 2rem;
@@ -19,13 +25,17 @@ p {
 .sidenav-trigger {
   color: orange;
 }
-
+ 
+ 
 .parallax-container {
   min-height: 380px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
 }
+ .parallax-container .section {
+  width: 100%;
+ } 
   .section-intro {
     height: 100%;
     width: 100%;
@@ -51,15 +61,16 @@ font-size: 1.3em; }
 @media only screen and (max-width : 600px) {
     #index-banner .section {
     top: 0;
-  }
 
-  .sidenav-trigger {
-  color: orange;
-  padding: 0 20px;
   }
+ .nav-wrapper  {
+  padding: 0 10px;
+ }
+
 }
 
-.col-servizio { margin-top: 60px; }
+.col-servizio { margin-top: 60px;
+margin-bottom: 100px; }
 
 .icon-block {
   padding: 0 15px;
