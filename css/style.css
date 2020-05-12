@@ -64,6 +64,11 @@ font-size: 1.3em; }
     top: 0;
   
   }
+  
+  .sidenav {
+  width: 41%;
+  
+}
  .nav-wrapper  {
   padding: 0 10px;
   
